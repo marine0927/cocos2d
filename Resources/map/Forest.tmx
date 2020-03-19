@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="80" height="40" tilewidth="60" tileheight="60" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="GrassLand1" tilewidth="60" tileheight="60" tilecount="33" columns="11">
+  <image source="C:/Users/34526/Desktop/草地.png" width="674" height="239"/>
+ </tileset>
+ <tileset firstgid="34" name="墙壁左上" tilewidth="60" tileheight="60" tilecount="24" columns="3">
+  <image source="C:/Users/34526/Desktop/墙壁左上.png" width="227" height="494"/>
+ </tileset>
+ <tileset firstgid="58" name="墙壁" tilewidth="60" tileheight="60" tilecount="80" columns="20">
+  <image source="C:/Users/34526/Desktop/墙壁.png" width="1210" height="281"/>
+ </tileset>
+ <tileset firstgid="138" name="墙壁右上" tilewidth="60" tileheight="60" tilecount="24" columns="3">
+  <image source="C:/Users/34526/Desktop/墙壁右上.png" width="200" height="500"/>
+ </tileset>
+ <tileset firstgid="162" name="grassland2" tilewidth="60" tileheight="60" tilecount="28" columns="4">
+  <image source="C:/Users/34526/Desktop/草地2.png" width="288" height="453"/>
+ </tileset>
+ <tileset firstgid="190" name="墙壁左下" tilewidth="60" tileheight="60" tilecount="16" columns="4">
+  <image source="C:/Users/34526/Desktop/墙壁左下.png" width="296" height="272"/>
+ </tileset>
+ <tileset firstgid="206" name="墙壁右下" tilewidth="60" tileheight="60" tilecount="18" columns="6">
+  <image source="C:/Users/34526/Desktop/墙壁右下.png" width="400" height="200"/>
+ </tileset>
+ <tileset firstgid="224" name="树2" tilewidth="60" tileheight="60" tilecount="60" columns="6">
+  <image source="C:/Users/34526/Desktop/树2.png" width="400" height="650"/>
+ </tileset>
+ <tileset firstgid="284" name="flower" tilewidth="60" tileheight="60" tilecount="15" columns="5">
+  <image source="C:/Users/34526/Desktop/花.png" width="300" height="200"/>
+ </tileset>
+ <tileset firstgid="299" name="tree2" tilewidth="60" tileheight="60" tilecount="48" columns="6">
+  <image source="C:/Users/34526/Desktop/Tree.png" width="405" height="522"/>
+ </tileset>
+ <tileset firstgid="347" name="grass" tilewidth="60" tileheight="60" tilecount="12" columns="3">
+  <image source="C:/Users/34526/Desktop/草.png" width="200" height="250"/>
+ </tileset>
+ <tileset firstgid="359" name="雕塑2" tilewidth="60" tileheight="60" tilecount="35" columns="5">
+  <image source="C:/Users/34526/Desktop/雕塑2.png" width="300" height="450"/>
+ </tileset>
+ <tileset firstgid="394" name="雕塑3" tilewidth="60" tileheight="60" tilecount="18" columns="3">
+  <image source="C:/Users/34526/Desktop/雕像3.png" width="200" height="400"/>
+ </tileset>
+ <tileset firstgid="412" name="壁画1" tilewidth="60" tileheight="60" tilecount="30" columns="10">
+  <image source="C:/Users/34526/Desktop/壁画1.png" width="600" height="200"/>
+ </tileset>
+ <tileset firstgid="442" name="壁画2" tilewidth="60" tileheight="60" tilecount="9" columns="3">
+  <image source="C:/Users/34526/Desktop/壁画2.png" width="180" height="200"/>
+ </tileset>
+ <tileset firstgid="451" name="壁画3" tilewidth="60" tileheight="60" tilecount="9" columns="3">
+  <image source="C:/Users/34526/Desktop/壁画3.png" width="200" height="200"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzV2keMHEUUxvEa57DBkfUuwURjMgbDiWByPJCTSQdyTgdyTgKBQCAQCM6AAIFlECDABpPB3EgSQeScc4Z/CZX0/HgVpnsHekr6yTs91eWeb1/36x7tqs651bA6NsPm2AJbYh62wtbYBttiO2yPHbAjdsLO2AW7Fu5TZd0rcKVr3lgDs7AmdsPu2AN7Yi/sjX2wL/bD/jgA83EgDsLBOASHFu5TZd2rcHVHEqg3ZmMtrI3DcDiOwJE4CkfjGByL43A8TsCJOAkn4xScitMK96my7jW4tkMZ1BnrYF2sh9NxBs7EWTgb5+BcnIfzcQEuxEW4GJfgUlyGywv3qbLudbi+EwHUHOtjA2yIFkZgJEZhNMZgLMZhPCZgojFXv9bzrTVvw+24Q823juEG3NihDOqMOdgIG6MHvehDPyZhMqZgKqZhOpYz5urXer615p24C3er+dYx3ISbO5RBnTEXm2BTDGAGBjGE5bECVsRKmImVsYox17/uMYQs9GufzT24FwvU+tYx3IJbO5JAveH7r/y8b+MdvIv38D4+cHaNhdd6+4D7d54DxryFuA/3u3T2fm5T68/3X/l5P8RH+Bif4FN85uz8+p2dnyX8H7K2HsCDeCiyhvy5qfXn+6889s/xBb7EV/ga3zi7JoYS2/VrK9OH8Qgedd1bf77/ymP9Ft/he/yAH/GTW/b8k/pcPr9crympX6v+5rmy55jcvNJ1rDFHHf/P+AW/4jf8jj9EfjOUwUh+8vwryS83x6q/0ueY3LzSdawxVx3rn/jLv8ENXQsjMLJlX/9DTnr7oFv2nLVqqyRD+bNVf6XPMbl5petYI/TfcKyjyGo0xmAsxmF8659as/LT52ouv7CPdc6m8rPqr/Q5JjevdB1rzFbHPYGsJqIHvehDfyS/kJPOJ2y38g3vxWpZKjnnq+qtsV84Bj90/51EVpMxBVMxDdNb9ue18tP3KDIPuU+slmO5x+4xretKjrwnbYeVn+6/sc9i5a8zCs8hOr/wr9yeq79cP0nlZR2/VJJxCT90/5W5pD6vnDekXusMY33G+p31R/4//bq01nJyWaf4ofuvlZ9Ve7qeUudmbP9YLZfkV/f6V+e6Kc9f3X91HcX21fmlajV271Mnv3avXXXEPr8fuv/qHhm7durMdH4lzxjW/xm7v7HO3+GspVRNW8/usf5r9ScrO72ePNetfazrvdymrwUl5+9w1JSVk8XqiX5Y/VfvI99v514h1Sv0Nn2Mpeevzr2015bklOvhfsj+W3repe4zYuT7w5Ff6lwrzSB2j1a6rh+y/1q/A51L6vkr9buy7lPayc/6vvv/II/BD9l/rfM8d82VmVjPeJpcO/fc0g3f/8n+G3v2ij0jpWoxJtUjUvl1w/fPsT7T7nNU6hqTOke7sf5k/43l185zhO5t+ppbmp/+vTW1/mT/jfWuVFb6c+r5qYxyPaIb6k/3X3n8ugdbWen35XUzdm0sqT/9XlPrL9V/re+nYr1U9wY5X+dbJb+m1l+q/1rXQvmzzis1X+Yb6xHdWH++/4a/40nlp/PK9QY9X77WuQfdWH++/4b82vnuwnpesLZZ263vVq16l5qan++///Vzj1W7uefWcP7ObHUmh6pjERbjMTzuqv1tcmpeyVqxOS/hZbyCV/Gaa15+S/AEnsRTrtrfJqfmlayVmvM63sCbeMs1L7+n8QyexXOu2t8mp+aVrJWaE7bJ/JqU4fN4AUvxoqv2t8mpeSVrpeaEbU2tv78B8QB+mQ==
+  </data>
+ </layer>
+ <layer name="块层 2" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2meMFkUYwPFdOqhITe4UECEYDaixd6V3Ox2U6BcBKVJiiYAUBUNHEJSABRNBwUi10XvTj5bEaLCBvWAvoP8NO+G5uZnZ2X2P+F7ufZJfjruZ2Zt9puzsewRBIfIl3gqDYAM2htna76DdTuzK2L68xybuezO2ZLz/3bTbg70VNH9bue9t2J7x/vfRbj8OVND8FaIQWaI/62VADmumEW0bo4m4RhOcZah7ZvZfk7dxJ/c9EHUytj+bts3Q3DIGrfj5+bgAFyaM0z2UD8JgDCkn++Bd9PPu8OTMjYu47sW4BJfiMlzuyMtQyoZhOEaUk/xlCdOaNcUVlF+Jq3A1rsG1jjYjKRuF0RhTjvKXdg/U16xc+zK31+F63IDWaIO2cZtXsQqrRdv7KXsAD+IhrT+bsQVbsQ2t0QZt0Q7t0QEd0Qmd0QVd0Q3dPev71JmG6aJvag9MCtseKde+zG07tEcHdEQndI5/z1qsw3rR9mHKxmIcxmv92Y4d2Ild6IGe6IXe6IO+6If+GIA7onvDQCzmekvwDJ7Fc3geS8OS9X2uOROzRN/UHpgUaffILlyzK7qhO27ETfHveR1v4E1RfwJlEzEJk7X+7MYe7MU+DMJgDMG9GIphGI4RuA8jMQqj8SLXW4bleAkvYwVWhiXr+1xzDuamzEWWuJm+3YJbcRtuR484LxuwEZtE/ccom4KpeFzL334cwNt4B2MxDuPxCCZgIiZhMh6NrocpmIpVXG811mAt1mE9XgtL1ve55jzMj/u1AivxSg55su2fPflZL/RGH/RFv7jeUrxguFYN1NR+dhpqoxIqowqqohqqiza14roRuQ/71E/jaSyK+2bax9OG7/7pE/XRICg5Jip/6uvpwfG9uC7qiTYNURST+7BP/YjM+UG+/wSf4jN8ji+C0vkz7eOmcD2jffdPGbZztXp3UWOiclY7vsdinBEc34sbobFo01TUzVJf5vwQ3x/Gl/gKX+ObuJ7Mn9zHXee6spxjPudqNSZqzajx0+eiS5a1qXyL7/A9fsCP+CkoPf/kPu56FzPNMdNeZRoDvZ7rXK23L4r7LOejzF2xgapTlIMj+Bm/4Ff8ht8N+Utav673YrWPyDCNgV7Pda42tY/6rMZP5VPlTn0vyTyosZM5V3PZNXf/wJ/4C3/jHxwN3OvXFK4zn+1zlqR6rnO1KdS9q/1M5kJf33odNXZyvupz2eQY/o1+OfVCVELl0L1+s0baM5DrXG0KU/70uaZyos9HNXbyZ2ouu+ZfFcqrohqqowZqhqXnn2n92p61tudL2jOQ61ztOv+p/Olrs1jLiVzjSeS+qe47+nctvp6CU6M5F103OgfFZUnr1/astT1f9DEw5UCG61xt2lPlXJPzT9XVnx9ynE1r01Yu13UdvtZFPdRHAzT0XL9pz3P6GOg5kGf/pDDtqfJ5IOefqquXy3E2PVtt5fIZ5bIYS+K+uZ6/vvetj4GeA3n2l2Gap7a9tBmaB2X3GZSrjq3sXbyH9/FB3C/X81fe98HA/D4The1dVoU8+8swrVXbXtoC5wR+ny/lWsdW9mFc9hE+jvvlev7K+7a9z+QSprVqWw/n4rzA7/OlXOsklUVU/vS5Y3vG2t5nbJH173pyPchrtESrwO/zpVzrJJVFVP70kHur3J9s7zMy5LtK0vuybZzkeijLd+6THdPo53TMCE+Mu9yfbO8zMuS7StIz3HYWkushy+c6/1fMpJ+zMDs8Me5yf7K9z/iEmpe5/q0+n2MO9zUXT4Tmcbe9z/iEmpeu9ZjmjJhPsQzLMY/7mo8nxf3J/cz2PhOF3MtcnyHKcdHPfvKs5Pv35XwIlb8F9HUhnhJ9lvuZ7X0mCrmXJf1/DhX62U+elXyvUZHD97OvQhSiEIUoRP7FfyZJkuk=
+  </data>
+ </layer>
+</map>

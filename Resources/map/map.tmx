@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="60" tileheight="60" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="wapian.tsx"/>
+ <layer name="background" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2CkOgEAQRNEWhEWAGhZFCChQcAOO1kenAmaO0Alf/JR9umoza4JWm/mgLVWlVrUFWFm8/Gyvr1Wd2tURYGXxNvMl1atTXQFWFk+Zb1RTsMbMN6slWDM+fPjw4cOHDx8+fIHChw8fPnz48OHD909fYe+Xf0dMNn8AIEnw/g==
+  </data>
+ </layer>
+ <layer name="collidable" width="40" height="40">
+  <properties>
+   <property name="Colidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJADAQxLCH33/nrBBwkRQSXO/6dmbW7OF+pa/R1+hr9DX6Gn2NvkZfo6/R1+hr9DX6Gn2NvkZfo695/Svf7ABMHgMr
+  </data>
+ </layer>
+</map>

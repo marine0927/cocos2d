@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="60" tileheight="60" infinite="0" backgroundcolor="#ffffff" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="BookShelf" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="../bookshlef.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="BookShelf2" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="../bookshlef2.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="9" name="白色" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="C:/Users/34526/Desktop/白色地毯.png" width="146" height="143"/>
+ </tileset>
+ <tileset firstgid="13" name="浅灰色" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="C:/Users/34526/Desktop/浅灰色地毯.png" width="147" height="143"/>
+ </tileset>
+ <tileset firstgid="17" name="深灰色" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="C:/Users/34526/Desktop/深灰色地毯.png" width="146" height="142"/>
+ </tileset>
+ <tileset firstgid="21" name="水晶" tilewidth="60" tileheight="60" tilecount="36" columns="6">
+  <image source="C:/Users/34526/Desktop/pixel水晶.png" width="372" height="372"/>
+ </tileset>
+ <tileset firstgid="57" name="魔法阵" tilewidth="60" tileheight="60" tilecount="400" columns="20">
+  <image source="C:/Users/34526/Desktop/pixel魔法阵.png" width="1242" height="1242"/>
+ </tileset>
+ <tileset firstgid="457" name="骷髅头" tilewidth="60" tileheight="60" tilecount="25" columns="5">
+  <image source="C:/Users/34526/Desktop/pixel骷髅头.png" width="302" height="302"/>
+ </tileset>
+ <tileset firstgid="482" name="Door" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="C:/Users/34526/Desktop/Jungle_Door.png" width="150" height="150"/>
+ </tileset>
+ <tileset firstgid="486" name="Door2" tilewidth="60" tileheight="60" tilecount="4" columns="2">
+  <image source="C:/Users/34526/Desktop/Jungle_Door1.png" width="150" height="150"/>
+ </tileset>
+ <tileset firstgid="490" name="书架" tilewidth="60" tileheight="60" tilecount="54" columns="9">
+  <image source="C:/Users/34526/Desktop/书架.png" width="557" height="395"/>
+ </tileset>
+ <tileset firstgid="544" name="侧边" tilewidth="60" tileheight="60" tilecount="54" columns="9">
+  <image source="C:/Users/34526/Desktop/书架侧面.png" width="557" height="395"/>
+ </tileset>
+ <tileset firstgid="598" name="侧边反" tilewidth="60" tileheight="60" tilecount="54" columns="9">
+  <image source="C:/Users/34526/Desktop/书架侧边反.png" width="557" height="395"/>
+ </tileset>
+ <tileset firstgid="652" name="书架后" tilewidth="60" tileheight="60" tilecount="44" columns="11">
+  <image source="C:/Users/34526/Desktop/书架后.png" width="675" height="255"/>
+ </tileset>
+ <layer id="1" name="块层 1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlrkOwjAQRB1TcZ8fQEublo+hdes2X0UDP8URQBwBiWMQtrC2QgKSRWzxtJOxFFmTTJy+VmoWKTUHC7AEaaDpTHPQK7AGGzDA/raYO7AHB5AFms4sB30EJzDC3mJwhr6AK1C4jvRT0xnloDUoAaMf+ZWxVAF10ABt0FHF+9btrwpdA03QAl3QU8X7iXu+XPKivn++XPKivnX5ccmL+onLj0te1DcuPy55SX+lv5xylP5Kf4vub8y8v0PG/fX5ccmL+j4/LnlR3zDvr/2B/sr5K+fvK75f43r++rV/O3+lv9Jf+X+W/n7DN8z7678vXPKi/v39m36IccC795oE+gZDx9ne
+  </data>
+ </layer>
+ <layer id="2" name="块层 2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2GeMFGUcB+BbRBALgokgCChF4llQVFQQjt4F6b0IChz1OBCQ3lGQ3kEBK8WWgCh2wQRUVECKiQr2nmAFFRXis183N5sdd8kmZH/J82knv/fNJPN/ZycrK5NMzoyUonQa138nkpW1OxL8eznKJ9mRTPbo3RvQXZFKVKbK/+xINgf0HozTfSXZSXZkkklQalKL26hNHXKoSz3q04CGNKIxTWhKM5rTIoX7iZ1nrWjNHbShLe1oTwc60onOdKEr3ehOD3rSK05/2MTOsz705S7uph/9GUAuAxnEYIYwlGHkMZx8RsTpD5OC5tkoRjOGexnLOMYzgYlMYjJTmMo0pjODmcyK0x82sfNsNnN4gLnMYz4LWMgiFrOEpSxjOStYySpWx+lPNmtYyzoe5hEe5TEe5wnWs4GNbOJJnuJpnuHZEOvlFgq3v81s4Tm28jwvsI0XeYmXeYVXeY3XeYPt7ODNEOvl2192AXsMOsN3sou3eDt6Hbt5l/d4nz3sZR8fsJ8DHOQQHya4VjS5AfsLOsM/4mM+4TBH+JTP+Jwv+JKv+Jpv+Jbv+J4f+DHBtaIJun9BZ/hRfuJnfuFXfuN3jnGcP/iTvzjB3/zDv5zkVIJrRRN0/4IS0VOIsyjM2RShKOdQjHM5j/O5gOJcSAlKclGId5f8kM/HxbpLUZpLKENZLqUc5anAZVxORSpRmSpcQdUQ++sdcn/Zuq/iaq7hWqpxHddTnRu4kZuowc3cwq3UpFYK3/1iz8c6unOoSz3q04CGNKIxTWhKM5rTgpbcTitaR4L7wyb2fGyrux3t6UBHOtGZLnSlG93pQU960Zs76UPfSHB/mBR0PvbT3Z8B5DKQQQxmCEMZRh7DyWcEI7mHUYyOBPeHTez5OFb3OMYzgYlMYjJTmMo0pjODmcziPu5nNnMiwf3JZp7u+SxgIYtYzBKWsozlrGAlq1jNgzzEGtam8PnIJLVJxX//dH0/iCaReZbO7weJzLN0fT9IxTw73Un1PMskk3TnP7r+wvc=
+  </data>
+ </layer>
+</map>
